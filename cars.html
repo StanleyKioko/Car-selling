@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cars - Kenya Car Market</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+    .car-card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .car-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body class="bg-gray-100">
+  <!-- Header -->
+  <header class="bg-white shadow sticky top-0 z-50">
+    <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="text-2xl font-bold text-blue-600 font-poppins">
+        Kenya Car Market
+      </div>
+      <div class="space-x-6">
+        <a href="index.html" class="text-gray-700 hover:text-blue-600">Home</a>
+        <a href="cars.html" class="text-blue-600 font-semibold">Cars</a>
+        <a href="contact.html" class="text-gray-700 hover:text-blue-600">Contact</a>
+        <a href="about.html" class="text-gray-700 hover:text-blue-600">About</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Page Header -->
+  <section class="bg-blue-600 text-white py-12">
+    <div class="container mx-auto px-4 text-center">
+      <h1 class="text-4xl font-bold font-poppins mb-4">Our Car Collection</h1>
+      <p class="text-lg">Browse through our extensive collection of quality vehicles</p>
+    </div>
+  </section>
+
+  <!-- Car Listings Section -->
+  <section class="container mx-auto px-4 py-12">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Car Card 1 -->
+      <div class="car-card bg-white rounded-lg shadow-lg overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1541348263662-e068662d82af?q=80&w=1000&auto=format&fit=crop" alt="Toyota Corolla" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-bold font-poppins mb-2">Toyota Corolla</h3>
+          <p class="text-gray-600 mb-4">Reliable and fuel-efficient sedan, perfect for city driving.</p>
+          <div class="grid grid-cols-2 gap-2 text-sm text-gray-700">
+            <p><strong>Year:</strong> 2019</p>
+            <p><strong>Mileage:</strong> 45,000 km</p>
+            <p><strong>Fuel:</strong> Petrol</p>
+            <p><strong>Transmission:</strong> Automatic</p>
+            <p><strong>Price:</strong> KSh 1,850,000</p>
+            <p><strong>Location:</strong> Nairobi</p>
+          </div>
+          <a href="#" class="mt-4 block text-center bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">View Details</a>
+        </div>
+      </div>
+      <!-- Car Card 2 -->
+      <div class="car-card bg-white rounded-lg shadow-lg overflow-hidden">
+        <img src="Nissan X-Trail.jpg" alt="Nissan X-Trail" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-bold font-poppins mb-2">Nissan X-Trail</h3>
+          <p class="text-gray-600 mb-4">Spacious SUV with advanced safety features.</p>
+          <div class="grid grid-cols-2 gap-2 text-sm text-gray-700">
+            <p><strong>Year:</strong> 2020</p>
+            <p><strong>Mileage:</strong> 30,000 km</p>
+            <p><strong>Fuel:</strong> Diesel</p>
+            <p><strong>Transmission:</strong> Automatic</p>
+            <p><strong>Price:</strong> KSh 3,200,000</p>
+            <p><strong>Location:</strong> Mombasa</p>
+          </div>
+          <a href="#" class="mt-4 block text-center bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">View Details</a>
+        </div>
+      </div>
+      <!-- Car Card 3 -->
+      <div class="car-card bg-white rounded-lg shadow-lg overflow-hidden">
+        <img src="Honda Fit.jpg" alt="Honda Fit" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-bold font-poppins mb-2">Honda Fit</h3>
+          <p class="text-gray-600 mb-4">Compact and economical, ideal for daily commutes.</p>
+          <div class="grid grid-cols-2 gap-2 text-sm text-gray-700">
+            <p><strong>Year:</strong> 2018</p>
+            <p><strong>Mileage:</strong> 60,000 km</p>
+            <p><strong>Fuel:</strong> Petrol</p>
+            <p><strong>Transmission:</strong> CVT</p>
+            <p><strong>Price:</strong> KSh 1,350,000</p>
+            <p><strong>Location:</strong> Kisumu</p>
+          </div>
+          <a href="#" class="mt-4 block text-center bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">View Details</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="container mx-auto px-4 text-center">
+      <p>&copy; 2025 Kenya Car Market. All rights reserved.</p>
+      <p class="mt-2">Contact us: <a href="mailto:info@kenyacarmarket.com" class="underline">info@kenyacarmarket.com</a> | +254 123 456 789</p>
+    </div>
+  </footer>
+</body>
+</html>

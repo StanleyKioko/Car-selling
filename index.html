@@ -32,99 +32,36 @@
         Kenya Car Market
       </div>
       <div class="space-x-6">
-        <a href="#home" class="text-gray-700 hover:text-blue-600">Home</a>
-        <a href="#cars" class="text-gray-700 hover:text-blue-600">Cars</a>
-        <a href="#contact" class="text-gray-700 hover:text-blue-600">Contact</a>
-        <a href="#about" class="text-gray-700 hover:text-blue-600">About</a>
+        <a href="index.html" class="text-gray-700 hover:text-blue-600">Home</a>
+        <a href="cars.html" class="text-gray-700 hover:text-blue-600">Cars</a>
+        <a href="contact.html" class="text-gray-700 hover:text-blue-600">Contact</a>
+        <a href="about.html" class="text-gray-700 hover:text-blue-600">About</a>
       </div>
     </nav>
   </header>
 
   <!-- Hero Section -->
-  <section id="home" class="hero-bg h-96 flex items-center justify-center text-white">
+  <section class="hero-bg h-96 flex items-center justify-center text-white">
     <div class="text-center">
       <h1 class="text-4xl md:text-5xl font-bold font-poppins mb-4">Find Your Dream Car in Kenya</h1>
       <p class="text-lg md:text-xl mb-6">Explore our wide range of quality vehicles at unbeatable prices.</p>
-      <a href="#cars" class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition">Browse Cars</a>
+      <a href="cars.html" class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition">Browse Cars</a>
     </div>
   </section>
 
-  <!-- Car Listings Section -->
-  <section id="cars" class="container mx-auto px-4 py-12">
-    <h2 class="text-3xl font-bold text-center font-poppins mb-8">Available Cars</h2>
+  <!-- Featured Cars Preview -->
+  <section class="container mx-auto px-4 py-12">
+    <h2 class="text-3xl font-bold text-center font-poppins mb-8">Featured Cars</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-      <!-- Car Card 1 -->
+      <!-- Featured Car 1 -->
       <div class="car-card bg-white rounded-lg shadow-lg overflow-hidden">
         <img src="https://images.unsplash.com/photo-1541348263662-e068662d82af?q=80&w=1000&auto=format&fit=crop" alt="Toyota Corolla" class="w-full h-48 object-cover">
         <div class="p-6">
           <h3 class="text-xl font-bold font-poppins mb-2">Toyota Corolla</h3>
-          <p class="text-gray-600 mb-4">Reliable and fuel-efficient sedan, perfect for city driving.</p>
-          <div class="grid grid-cols-2 gap-2 text-sm text-gray-700">
-            <p><strong>Year:</strong> 2019</p>
-            <p><strong>Mileage:</strong> 45,000 km</p>
-            <p><strong>Fuel:</strong> Petrol</p>
-            <p><strong>Transmission:</strong> Automatic</p>
-            <p><strong>Price:</strong> KSh 1,850,000</p>
-            <p><strong>Location:</strong> Nairobi</p>
-          </div>
-          <a href="#" class="mt-4 block text-center bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">View Details</a>
+          <p class="text-gray-600 mb-4">Reliable and fuel-efficient sedan.</p>
+          <p class="text-2xl font-bold text-blue-600">KSh 1,850,000</p>
+          <a href="cars.html" class="mt-4 block text-center bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">View All Cars</a>
         </div>
-      </div>
-      <!-- Car Card 2 -->
-      <div class="car-card bg-white rounded-lg shadow-lg overflow-hidden">
-        <img src="Nissan X-Trail.jpg" alt="Nissan X-Trail" class="w-full h-48 object-cover">
-        <div class="p-6">
-          <h3 class="text-xl font-bold font-poppins mb-2">Nissan X-Trail</h3>
-          <p class="text-gray-600 mb-4">Spacious SUV with advanced safety features.</p>
-          <div class="grid grid-cols-2 gap-2 text-sm text-gray-700">
-            <p><strong>Year:</strong> 2020</p>
-            <p><strong>Mileage:</strong> 30,000 km</p>
-            <p><strong>Fuel:</strong> Diesel</p>
-            <p><strong>Transmission:</strong> Automatic</p>
-            <p><strong>Price:</strong> KSh 3,200,000</p>
-            <p><strong>Location:</strong> Mombasa</p>
-          </div>
-          <a href="#" class="mt-4 block text-center bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">View Details</a>
-        </div>
-      </div>
-      <!-- Car Card 3 -->
-      <div class="car-card bg-white rounded-lg shadow-lg overflow-hidden">
-        <img src="Honda Fit.jpg" alt="Honda Fit" class="w-full h-48 object-cover">
-        <div class="p-6">
-          <h3 class="text-xl font-bold font-poppins mb-2">Honda Fit</h3>
-          <p class="text-gray-600 mb-4">Compact and economical, ideal for daily commutes.</p>
-          <div class="grid grid-cols-2 gap-2 text-sm text-gray-700">
-            <p><strong>Year:</strong> 2018</p>
-            <p><strong>Mileage:</strong> 60,000 km</p>
-            <p><strong>Fuel:</strong> Petrol</p>
-            <p><strong>Transmission:</strong> CVT</p>
-            <p><strong>Price:</strong> KSh 1,350,000</p>
-            <p><strong>Location:</strong> Kisumu</p>
-          </div>
-          <a href="#" class="mt-4 block text-center bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">View Details</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact" class="bg-gray-200 py-12">
-    <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-bold text-center font-poppins mb-8">Get in Touch</h2>
-      <div class="max-w-lg mx-auto">
-        <div class="mb-4">
-          <label for="name" class="block text-gray-700 mb-2">Name</label>
-          <input type="text" id="name" class="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-600" placeholder="Your Name">
-        </div>
-        <div class="mb-4">
-          <label for="email" class="block text-gray-700 mb-2">Email</label>
-          <input type="email" id="email" class="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-600" placeholder="Your Email">
-        </div>
-        <div class="mb-4">
-          <label for="message" class="block text-gray-700 mb-2">Message</label>
-          <textarea id="message" class="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-600" rows="5" placeholder="Your Message"></textarea>
-        </div>
-        <button class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition">Send Message</button>
       </div>
     </div>
   </section>
@@ -136,17 +73,5 @@
       <p class="mt-2">Contact us: <a href="mailto:info@kenyacarmarket.com" class="underline">info@kenyacarmarket.com</a> | +254 123 456 789</p>
     </div>
   </footer>
-
-  <script>
-    // Smooth scrolling for navigation links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-          behavior: 'smooth'
-        });
-      });
-    });
-  </script>
 </body>
 </html>
